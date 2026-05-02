@@ -1,0 +1,11 @@
+{
+  "name": "plot_chart",
+  "description": "Generates charts from CSV data and returns the image path. Supports: line, bar, histogram, candlestick",
+  "parameters": {
+    "file_path": { "type": "string" },
+    "chart_type": { "type": "string", "enum": ["line", "bar", "histogram", "price_history"] },
+    "x_column": { "type": "string" },
+    "y_column": { "type": "string" },
+    "title": { "type": "string", "required": false }
+  }
+}

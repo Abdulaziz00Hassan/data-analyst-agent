@@ -1,0 +1,10 @@
+{
+  "name": "analyze_csv",
+  "description": "Analyzes a CSV file and returns summary statistics, data shape, missing values, and key insights",
+  "parameters": {
+    "file_path": {
+      "type": "string",
+      "description": "Path to the CSV file to analyze"
+    }
+  }
+}
