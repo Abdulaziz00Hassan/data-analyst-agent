@@ -27,7 +27,8 @@ Send a message to Telegram → Agent analyzes Aramco stock data → Returns insi
 
 - **Python** (pandas, matplotlib) — data analysis & visualization
 - **Node.js + Telegraf** — Telegram bot framework
-- **Google Gemini API** — AI reasoning (free tier)
+- OpenClaw — AI agent framework
+- Google Gemini API — LLM backend
 - **Dataset**: Saudi Aramco (2222.SR) 2019–2024 stock data
 
 ## 📁 Project Structure
