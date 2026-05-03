@@ -1,6 +1,5 @@
-venv/
-node_modules/
-.env
-output/charts/
 __pycache__/
-*.pyc 
+*.pyc
+.env
+output/charts/*.png
+*.csv

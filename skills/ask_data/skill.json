@@ -1,0 +1,5 @@
+{
+  "name": "ask_data",
+  "description": "Ask questions about data",
+  "entry_point": "ask.py"
+}
