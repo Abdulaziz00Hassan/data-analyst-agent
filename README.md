@@ -1,5 +1,4 @@
 
-```markdown
 # 📊 Data Analyst Agent — OpenClaw
 
 An AI agent that analyzes Saudi Aramco (2222.SR) stock data via Telegram.
