@@ -1,30 +1,30 @@
-```markdown
-# 📊 Data Analyst Agent — Saudi Aramco Stock Analysis
+# 📊 Data Analyst Agent — OpenClaw
 
-> AI-powered Telegram bot that analyzes Saudi Aramco (2222.SR) stock data, generates charts, and answers natural language questions.
+An AI agent that analyzes Saudi Aramco (2222.SR) stock data via Telegram.
+Built with OpenClaw + Python (pandas, matplotlib).
 
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![Node.js](https://img.shields.io/badge/Node.js-20-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+## Demo
 
-## 🔍 What It Does
+![analyze](demo/demo1.png)
+![plot](demo/demo2.png)
+![ask](demo/demo3.png)
 
-Send a message to Telegram → Agent analyzes Aramco stock data → Returns insights + charts instantly.
+## Commands
 
-**Commands:**
-| Command | Description |
+| Command | What it does |
 |---------|-------------|
-| `/analyze` | Full dataset summary (shape, stats, insights) |
-| `/plot` | Price history + volume chart |
-| `/ask [question]` | Natural language question answering |
+| `plot aramco` | Sends price history chart as image |
+| `analyze aramco` | Returns full statistical summary |
+| `ask [question]` | Answers questions about the data |
 
-**Example Questions:**
-- `/ask what is the highest price?`
-- `/ask what was the average volume in 2022?`
-- `/ask which year had the best return?`
+## Stack
 
-## 🛠 Tech Stack
+- OpenClaw — AI agent framework
+- Python + pandas + matplotlib
+- Telegram Bot API
+- Dataset: Saudi Aramco (2222.SR) 2019–2024
 
+<<<<<<< HEAD
 - **Python** (pandas, matplotlib) — data analysis & visualization
 - **Node.js + Telegraf** — Telegram bot framework
 - OpenClaw — AI agent framework
@@ -51,16 +51,14 @@ data-analyst-agent/
 ```
 
 ## ⚡ Quick Start
+=======
+## Setup
+>>>>>>> 167ec92 (feat: Data Analyst Agent - OpenClaw skill with plot, analyze, and ask commands for Saudi Aramco stock data)
 
 ```bash
-# 1. Clone
-git clone https://github.com/YOUR_USERNAME/data-analyst-agent.git
-cd data-analyst-agent
-
-# 2. Python setup
-python -m venv venv
-venv\Scripts\activate  # Windows
+git clone https://github.com/Abdulaziz00Hassan/data-analyst-agent 
 pip install -r requirements.txt
+<<<<<<< HEAD
 
 # 3. Node.js setup
 npm install
@@ -100,3 +98,7 @@ python tests/test_skills.py
 Abdulaziz Ali Hassan — Data Analyst & AI Developer
 [LinkedIn](https://linkedin.com/in/abdulaziz-ali-data-analyst-py88) | [GitHub](https://github.com/Abdulaziz00Hassan)
 ```
+=======
+# Add your data CSV to /data/aramco_stock.csv
+# Configure OpenClaw with your Telegram bot token
+>>>>>>> 167ec92 (feat: Data Analyst Agent - OpenClaw skill with plot, analyze, and ask commands for Saudi Aramco stock data)
